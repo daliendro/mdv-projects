@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- VFW Project 1 -->
+<!-- Danielle Aliendro -->
+<!-- Term: 1111 -->
+
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Triathlon training for women" />
+		<meta name="keywords" content="triathlon, swim, bike, run, women athletes" />
+		<meta name="robots" content="index, follow" />
+		<meta name="viewport" content="user-scalable=no, width=device-width" />
+		<meta name="viewport" content="target-densitydpi=device-dpi" />
+		<meta name="HandheldFriendly" content="True" />
+		<meta name="MobileOptimized" content="320" />
+	
+		<title>Triathlon Training for Women</title>
+	</head>
+	<body>
+
+		<h1>Triathlon Training For Women</h1>
+		<h4><em>Easily keep track of workouts while training for any level triathlon</em></h3>
+		<form action="#" method="post">
+			<fieldset>
+				<legend><strong>Details</strong></legend>
+				<ul>	
+					<li><label for="date">Date: </label><input type="date" min="1904-03-17" max="1904-05-17" /></li>
+					<li><label for="time">Time: </label><input type="time" /></li>
+					<li>
+						<ul>
+							<li><input type="radio" value="AM" id="AM" name="time" /><label for="AM">AM</label></li>
+							<li><input type="radio" value="PM" id="PM" name="time" /><label for="PM">PM</label></li>
+						</ul>		
+					</li>			
+					<li>
+					<label for="rating">My pre-workout energy level is:</label>
+					<input type="range" min="1" max="10" name="rating" type="range">
+					</li>
+				</ul>
+			</fieldset>
+			<fieldset>
+				<legend><strong>Workout</strong></legend>
+				<ul>
+					<li>	
+						<label for="event">Select Workout</label>
+						<select id="event">
+							<option value="Swim">Swim</option>
+							<option value="Bike">Bike</option>
+							<option value="Run">Run</option>
+							<option value="Brick">Brick</option>
+							<option value="Weights">Weights</option>	
+						</select>
+					</li>
+					<li><label for="gtime">Goal Time:</label><input type="text" id="gtime" /></li>
+					<li><label for="atime">Actual Time:</label><input type="text" id="atime" /></li>
+					<li><label for="gweight">Goal Sets:</label><input type="text" id="gsets" /></li>
+					<li><label for="aweight">Actual Sets:</label><input type="text" id="asets" /></li>
+					<li>
+					<label for="rating">My post-workout energy level is:</label>
+					<input type="range" min="1" max="10" name="rating" type="range">
+					</li>
+				</ul>
+			</fieldset>
+			</h5><input type="submit" value="Enter" />
+			<h5><a href="#"><strong>Clear Stored Data</strong></a></h5>
+			<h5><a href="#"><strong>Display Data </strong></a></h5>
+		</form>
+		
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
